@@ -13,7 +13,7 @@ popd
 popd
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
-sed -i 's/bootstrap/argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/argonv3/g' feeds/luci/collections/luci/Makefile
 # Enter your commands here, e.g.
 # echo "Start build!"
 make defconfig
