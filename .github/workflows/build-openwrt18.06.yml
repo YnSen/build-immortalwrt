@@ -49,6 +49,7 @@ jobs:
         sudo chown -R runner:runner lede
     - name: Before Build
       run: |
+        cd /home/runner/lede
         /bin/bash ${GITHUB_WORKSPACE}/before_build.sh
         cp -fpR ${GITHUB_WORKSPACE}/. /home/runner/lede/
 
