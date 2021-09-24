@@ -18,7 +18,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome
 #openclash插件
 git clone https://github.com/vernesong/OpenClash.git
 #ssrplus
-#git clone https://github.com/fw876/helloworld.git
+git clone https://github.com/fw876/helloworld.git
 # SmartDNS插件
 #git clone https://github.com/pymumu/openwrt-smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns
@@ -40,7 +40,7 @@ git clone https://github.com/lisaac/luci-app-dockerman
 
 #kenzok8 
 #git clone https://github.com/kenzok8/openwrt-packages.git
-#git clone https://github.com/kenzok8/small.git
+git clone https://github.com/kenzok8/small.git
 
 #pushd  openwrt-packages
 #rm -rf luci-theme-argo*
@@ -75,3 +75,6 @@ popd
 pushd package/tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns/files/luci/controller
 sed -i 's/"admin", "tencentcloud"/"admin", "services", "tencentcloud"/g' tencentddns.lua
 popd
+
+# Modify default IP
+sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
