@@ -36,23 +36,22 @@ git clone https://github.com/lisaac/luci-lib-docker
 #Docker
 git clone https://github.com/lisaac/luci-app-dockerman
 #diskman
-#git clone https://github.com/lisaac/luci-app-diskman.git
+git clone https://github.com/lisaac/luci-app-diskman.git
 
 #kenzok8 
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/kenzok8/small.git
+git clone -b 19.07 https://github.com/kenzok8/small-package.git
+#git clone https://github.com/kenzok8/small.git
 
-pushd  openwrt-packages
-rm -rf luci-theme-argo*
-rm -rf luci-app-argon-config
+#pushd  small-package
+#rm -rf xray-core
 #rm -rf luci-theme-edge
-popd
+#popd
 
 #rclone 
 git clone https://github.com/ElonH/Rclone-OpenWrt.git
 # argon主题
-git clone https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config.git
+#git clone https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-app-argon-config.git
 #vssr
 #git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
 #git clone https://github.com/jerrykuku/luci-app-vssr.git
