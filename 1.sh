@@ -36,7 +36,7 @@ git clone https://github.com/lisaac/luci-lib-docker
 #Docker
 git clone https://github.com/lisaac/luci-app-dockerman
 #diskman
-git clone https://github.com/lisaac/luci-app-diskman.git
+#git clone https://github.com/lisaac/luci-app-diskman.git
 
 #kenzok8 
 git clone -b 19.07 https://github.com/kenzok8/small-package.git
