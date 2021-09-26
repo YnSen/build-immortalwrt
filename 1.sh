@@ -8,7 +8,7 @@ git clone https://github.com/Lienol/openwrt-package.git
 # 微信推送插件
 #git clone https://github.com/tty228/luci-app-serverchan
 # Add Pushbot-原钉钉推送插件
-git clone https://github.com/zzsj0928/luci-app-pushbot
+#git clone https://github.com/zzsj0928/luci-app-pushbot
 # 京东签到插件
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus 
 # adguardhome插件
